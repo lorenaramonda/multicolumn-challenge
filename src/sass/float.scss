@@ -1,0 +1,24 @@
+
+// mixins
+@mixin clearfix() {
+
+  &:before, &:after {
+    content: '';
+    display: table;
+    height: 0;
+    clear: both;
+  }
+}
+
+.layout {
+  @include clearfix();
+  > div {
+    float: left;
+    width: 33.3333%;
+  }
+  &.fullpage {
+    > div {
+      min-height: 100vh;
+    }
+  }
+}

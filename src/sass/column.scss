@@ -1,0 +1,13 @@
+.layout {
+  column-count: 3;
+  -moz-column-count: 3;
+  column-gap: 0;
+  &.fullpage {
+    div {
+      -webkit-column-break-inside: avoid;
+      page-break-inside: avoid;
+      break-inside: avoid;
+      min-height: 100vh;
+    }
+  }
+}

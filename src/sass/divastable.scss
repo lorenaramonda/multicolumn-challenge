@@ -1,0 +1,15 @@
+.layout {
+  display: table;
+  width: 100%;
+  > .row {
+    display: table-row;
+    margin-bottom: 1em;
+    > div {
+      display: table-cell;
+      width: 33.3333%;
+    }
+  }
+  &.fullpage {
+    min-height: 100%;
+  }
+}

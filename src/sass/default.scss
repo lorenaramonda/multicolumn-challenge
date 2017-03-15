@@ -1,0 +1,60 @@
+html, body, h1, h2, h3, h4, h5, h6, span, p, div, ul, li { //form, label, select, input, button
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 14px;
+}
+body {
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+
+h2 {
+  margin: 0 0 1em;
+  font-size: 2em;
+}
+
+.left-col {
+  background-color: white;
+}
+.center-col {
+  background-color: #9a9a9a;
+}
+.right-col {
+  background-color: black;
+  color: white;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+[class*="cavy"] {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.switch {
+  background-color: #333;
+  color: white;
+  line-height: 40px;
+  padding: 0.5em;
+}
+
+footer {
+  clear: both;
+  padding: 0.5em;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+}

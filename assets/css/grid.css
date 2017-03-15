@@ -1,0 +1,6 @@
+.layout {
+  display: grid;
+  grid-template-columns: 33.33333% 33.33333% 33.33333%;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ3JpZC5jc3MiLCJzb3VyY2VzIjpbImdyaWQuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIubGF5b3V0IHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAzMy4zMzMzMyUgMzMuMzMzMzMlIDMzLjMzMzMzJTtcbn1cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxBQUFBLE9BQU8sQ0FBQztFQUNOLE9BQU8sRUFBRSxJQUFJO0VBQ2IscUJBQXFCLEVBQUUsNkJBQTZCO0NBQ3JEIn0= */

@@ -1,0 +1,22 @@
+{
+  "name": "multicolumn-performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Loreena/multicolumn-performance.git"
+  },
+  "author": "Lorena Ramonda <lorena@ramonda.me>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Loreena/multicolumn-performance#readme"
+}

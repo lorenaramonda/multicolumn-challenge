@@ -1,0 +1,14 @@
+.layout {
+  column-count: 3;
+  -moz-column-count: 3;
+  column-gap: 0;
+}
+
+.layout.fullpage div {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29sdW1uLmNzcyIsInNvdXJjZXMiOlsiY29sdW1uLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLmxheW91dCB7XG4gIGNvbHVtbi1jb3VudDogMztcbiAgLW1vei1jb2x1bW4tY291bnQ6IDM7XG4gIGNvbHVtbi1nYXA6IDA7XG4gICYuZnVsbHBhZ2Uge1xuICAgIGRpdiB7XG4gICAgICAtd2Via2l0LWNvbHVtbi1icmVhay1pbnNpZGU6IGF2b2lkO1xuICAgICAgcGFnZS1icmVhay1pbnNpZGU6IGF2b2lkO1xuICAgICAgYnJlYWstaW5zaWRlOiBhdm9pZDtcbiAgICAgIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICAgIH1cbiAgfVxufSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxBQUFBLE9BQU8sQ0FBQztFQUNOLFlBQVksRUFBRSxDQUFDO0VBQ2YsaUJBQWlCLEVBQUUsQ0FBQztFQUNwQixVQUFVLEVBQUUsQ0FBQztDQVNkOztBQVpELEFBS0ksT0FMRyxBQUlMLFNBQVUsQ0FDUixHQUFHLENBQUM7RUFDRiwyQkFBMkIsRUFBRSxLQUFLO0VBQ2xDLGlCQUFpQixFQUFFLEtBQUs7RUFDeEIsWUFBWSxFQUFFLEtBQUs7RUFDbkIsVUFBVSxFQUFFLEtBQUs7Q0FDbEIifQ== */
